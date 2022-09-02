@@ -15,6 +15,10 @@ public class Tree {
         }
     }
     private void printTree(){
+         if(rootNode==null){
+              System.out.println("Tree is Empty!");
+              return;
+         }
         Queue<Node> queue = new LinkedList<>();
         queue.add(rootNode);
 
