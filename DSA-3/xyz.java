@@ -53,7 +53,7 @@ public class Tree {
          }else {
              queue.add(temp.leftChild);
          }
-         if(!queue.isEmpty()){
+         if(temp.rightChild==null)){
              temp.rightChild=newNode;
              break;
          }else {
